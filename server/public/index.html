@@ -13,7 +13,15 @@
 
 <body>
     <h1>Ajax Post</h1>
-
+    <section>
+        <span>
+            <input type= "text" placeHolder= "Title" id="newSongTitle"/>
+            <input type= "text" placeHolder= "Artist" d="newSongArtist"/>
+            <input type= "number" placeHolder= "Year" id="newSongYear"/>
+            <input type= "number" placeHolder= "Cost" id="newSongCost"/>
+            <button id="addNewSong">Click</button>
+        </span>
+    </section>
     <table>
         <thead>
             <tr>
@@ -24,7 +32,7 @@
             </tr>
         </thead>
         <tbody id="recordList">
-            <tr>
+            <tr id="pushList">
                 <td>Blue Suede Shoes</td>
                 <td>Elvis</td>
                 <td>2005</td>

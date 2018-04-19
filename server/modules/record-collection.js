@@ -6,7 +6,7 @@ const recordCollection = [
         cost: 300000
     },
     {
-        title: 'Long Cleve Reed & Little Harvey Hill',
+        title: 'Long Clever Reed & Little Harvey Hill',
         year: 1927,
         artist: 'Elvis',
         cost: 50000
