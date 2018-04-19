@@ -1,4 +1,6 @@
-// const recordCollection = [
+// const listRecords = 3;
+
+//[
 //     {
 //         title: 'My Happiness',
 //         year: 1948,
