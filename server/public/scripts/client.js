@@ -3,6 +3,8 @@ console.log('client side up');
 $(document).ready(onReady);
 console.log('JS ready');
 
+// put anything you want to happen first should be in onReady
+
 function onReady() {
     console.log('jquery ready');
 
@@ -20,7 +22,7 @@ function addNew() {
     console.log('New song object', newSong);
     $.ajax({
         method: 'POST',
-        url: '/add-record',
+        url: '/record',
         data: newSong
     })
         .then(function (response) {
@@ -32,7 +34,7 @@ function addNew() {
     function getAllSongs() {
         $.ajax({
             method: 'GET',
-            url: '/records'
+            url: '/record'
         })
             .then(function (response) {
                 console.log(response);
